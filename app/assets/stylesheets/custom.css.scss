@@ -3,6 +3,9 @@ $navbar-default-bg: #000000;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body{
+  padding-top: 70px;
+}
 #logo{
   float: left;
   font-size: 1.7em;
@@ -19,6 +22,17 @@ $navbar-default-bg: #000000;
 
 .center {
   text-align: center;
+}
+
+.article-title{
+font-weight: bold;
+font-size: 1.5em;
+}
+
+.article-body{
+border-top: 1px solid #eaeaea;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 
 .jumbotron{
@@ -40,8 +54,14 @@ background-color: #ff0000;
 
 }
 
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+
+}
+
 footer{
-  margin-top: 45px;
+  margin-top: 450px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
@@ -63,4 +83,8 @@ footer ul{
 footer ul li{
 float: left;
 margin-left: 15px;
+}
+
+.center {
+  text-align: center;
 }
