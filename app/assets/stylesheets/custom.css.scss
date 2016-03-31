@@ -35,6 +35,19 @@ padding-top: 15px;
 padding-bottom: 15px;
 }
 
+.meta-data-details{
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+}
+
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+
+}
+
+
+
 .jumbotron{
   background-image: asset-url('cover_jumbotron.jpg');
   background-size:cover;
@@ -54,11 +67,7 @@ background-color: #ff0000;
 
 }
 
-.article-actions{
-  border-top: 1px solid #eaeaea;
-  padding-top: 5px;
 
-}
 
 footer{
   margin-top: 450px;
